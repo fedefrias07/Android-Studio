@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:textAlignment="center"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#3F51B5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/logoTs"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/logo_ts" />
+
+        <TextView
+            android:id="@+id/textGestionCitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Gestion de Citas"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutProgramarCita"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217">
+
+        <ImageView
+            android:id="@+id/imgPorgramarCita"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/programar_cita" />
+
+        <TextView
+            android:id="@+id/textProgramarCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Programar cita"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutModificarCita"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417">
+
+        <ImageView
+            android:id="@+id/imgModificarCita"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/modificar_cita" />
+
+        <TextView
+            android:id="@+id/textModificarCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Modificar cita"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCancelarCita"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61">
+
+        <ImageView
+            android:id="@+id/imgCancelar"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/cancelar" />
+
+        <TextView
+            android:id="@+id/textCancelarCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Cancelar cita"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutVerCita"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805">
+
+        <ImageView
+            android:id="@+id/imgCalendario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/cita" />
+
+        <TextView
+            android:id="@+id/textVerCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Ver mis citas"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#FFDFDFDF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/usuario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/usuario2" />
+
+        <ImageView
+            android:id="@+id/config"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/ajustes" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

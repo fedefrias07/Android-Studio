@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF5733" /> <!-- Color sólido del rectángulo -->
+    <corners android:radius="5dp" /> <!-- Radio de las esquinas, ajusta según sea necesario -->
+</shape>

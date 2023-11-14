@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" /> <!-- Radio de las esquinas -->
+    <solid android:color="#FF174CA0" /> <!-- Color azul -->
+</shape>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395381703231",
+    "project_id": "techsolutions-f2925",
+    "storage_bucket": "techsolutions-f2925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395381703231:android:fc078e015fc612e310ae8a",
+        "android_client_info": {
+          "package_name": "com.example.techsolutions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnlg-SeIcuFXbiD-I6BCSnb4YpiwkDFy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

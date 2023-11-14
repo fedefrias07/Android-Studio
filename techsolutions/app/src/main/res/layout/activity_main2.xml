@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo4"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/logoTs"
+        android:layout_width="141dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/logo_ts" />
+
+    <EditText
+        android:id="@+id/ingresarNombre"
+        android:layout_width="302dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/edittext_border"
+        android:ellipsize="none"
+        android:ems="10"
+        android:hint="Ingresar nombre"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColorHint="#6C6C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <EditText
+        android:id="@+id/ingresarApellido"
+        android:layout_width="302dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/edittext_border"
+        android:ellipsize="none"
+        android:ems="10"
+        android:hint="Ingresar apellido"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColorHint="#6C6C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <EditText
+        android:id="@+id/crearUsuario"
+        android:layout_width="302dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/edittext_border"
+        android:ellipsize="none"
+        android:ems="10"
+        android:hint="Ingresar nombre de usuario"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColorHint="#6C6C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <EditText
+        android:id="@+id/ingresarEmail"
+        android:layout_width="302dp"
+        android:layout_height="57dp"
+        android:background="@drawable/edittext_border"
+        android:ellipsize="none"
+        android:ems="10"
+        android:hint="Ingresar Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColorHint="#6C6C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <EditText
+        android:id="@+id/ingresarContrasena"
+        android:layout_width="302dp"
+        android:layout_height="57dp"
+        android:background="@drawable/edittext_border"
+        android:ellipsize="none"
+        android:ems="10"
+        android:hint="Ingresar contraseña"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColorHint="#6C6C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/btnCrearCuenta"
+        android:layout_width="228dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#174CA0"
+        android:text="Crear cuenta"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <TextView
+        android:id="@+id/textoIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Ya tenes una cuenta? Ingresa"
+        android:textColor="#174CA0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

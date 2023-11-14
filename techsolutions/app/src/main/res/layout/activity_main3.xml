@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:textAlignment="center"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#3F51B5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/logoTs"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/logo_ts" />
+
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="TechSolutions"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutVerPedidos"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249">
+
+        <ImageView
+            android:id="@+id/imgLogistica"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/logistica" />
+
+        <TextView
+            android:id="@+id/atencionCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Ver mis pedidos"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutCitas"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <ImageView
+            android:id="@+id/imgCalendario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/cita" />
+
+        <TextView
+            android:id="@+id/GestionarCitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Gestionar citas"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAtencionCliente"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662">
+
+        <ImageView
+            android:id="@+id/imgAtencion"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/atencion_cliente" />
+
+        <TextView
+            android:id="@+id/verPedidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Atencion al cliente"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#FFDFDFDF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/usuario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/usuario2" />
+
+        <ImageView
+            android:id="@+id/config"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/ajustes" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
