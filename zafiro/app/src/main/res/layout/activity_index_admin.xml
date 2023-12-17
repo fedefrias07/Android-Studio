@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexUsuarioActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#1B2355"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/logoTs"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Zafiro"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutVerProductos"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249">
+
+        <ImageView
+            android:id="@+id/imgVerProductos"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/ver_productos" />
+
+        <TextView
+            android:id="@+id/textVerProductos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Ver productos"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutAgregarProducto"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <ImageView
+            android:id="@+id/imgAgregarProductos"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/boton_mas" />
+
+        <TextView
+            android:id="@+id/textAgregarProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Agregar producto"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBuscarUsuario"
+        android:layout_width="369dp"
+        android:layout_height="96dp"
+        android:background="@drawable/borde_index"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648">
+
+        <ImageView
+            android:id="@+id/imgVerUsuario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/buscar" />
+
+        <TextView
+            android:id="@+id/textVerUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Buscar usuario"
+            android:textColor="#494949"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#FFDFDFDF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/usuario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/usuario"
+            android:contentDescription="Ver tu perfil"/>
+            />
+
+        <ImageView
+            android:id="@+id/config"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/configuraciones" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

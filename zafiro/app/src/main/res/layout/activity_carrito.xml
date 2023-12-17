@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarritoActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#1B2355"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/logoTs"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="Zafiro"
+            android:textColor="#FAFAFA"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <!-- Contenedor para mostrar productos -->
+    <LinearLayout
+        android:id="@+id/linearLayoutProductos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout1"
+        app:layout_constraintVertical_bias="1.0">
+
+        <!-- Producto  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tornillos"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#E91E3C"
+                android:text="Eliminar" />
+
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <Button
+                android:id="@+id/btnComprar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="92dp"
+                android:backgroundTint="#4CAF50"
+                android:text="Comprar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="#FFDFDFDF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutProductos"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/usuario"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/usuario"
+            android:contentDescription="Ver perfil"/>
+
+        <ImageView
+            android:id="@+id/config"
+            android:layout_width="74dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/configuraciones" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

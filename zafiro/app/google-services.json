@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "184255228465",
+    "firebase_url": "https://zafiro-274e7-default-rtdb.firebaseio.com",
+    "project_id": "zafiro-274e7",
+    "storage_bucket": "zafiro-274e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184255228465:android:6f336c55bc02ad5ae44310",
+        "android_client_info": {
+          "package_name": "com.example.zafiro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5NQZAUlC8tIPZ1TVOtccqdkTCx7gtGoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
